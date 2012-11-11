@@ -1,0 +1,7 @@
+parameters:
+#    cross_game.example.class: Cross\GameBundle\Example
+
+services:
+#    cross_game.example:
+#        class: %cross_game.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

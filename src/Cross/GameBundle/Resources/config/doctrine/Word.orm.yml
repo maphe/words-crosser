@@ -1,0 +1,22 @@
+Cross\GameBundle\Entity\Word:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        word:
+            type: string
+            length: '50'
+        type:
+            type: string
+            length: '20'
+        form:
+            type: string
+            length: '20'
+        lemme:
+            type: string
+            length: '50'
+    lifecycleCallbacks: {  }

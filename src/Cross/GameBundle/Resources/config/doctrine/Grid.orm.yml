@@ -1,0 +1,19 @@
+Cross\GameBundle\Entity\Grid:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        title:
+            type: string
+            length: 255
+        width:
+            type: integer
+        height:
+            type: integer
+        data:
+            type: text
+    lifecycleCallbacks: {  }
